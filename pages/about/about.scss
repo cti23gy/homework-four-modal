@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  padding: 0 20%;
+  .image1 {
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/image2.jpg);
+
+    margin: 20px 60px;
+    min-width: 360px;
+    height: 240px;
+  }
+}
