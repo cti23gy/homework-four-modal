@@ -51,7 +51,7 @@ function modalListeners() {
 
     $("#showModal").click(function(e){
         $('.modal').css("display", "flex");
-        gsap.to($(".modal"), {
+        gsap.to($(".modal"), { //Animations only work on the second attempt after hitting submit for some reason?
                 ease: "bounce.out",
                 scale: 1,
                 duration: 2,
